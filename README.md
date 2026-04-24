@@ -228,22 +228,6 @@ A multi-agent A2A healthcare workflow that turns denied prior authorizations int
 
 ---
 
-## Demo video outline
-
-The demo video should show AppealOS running inside Prompt Opinion.
-
-Suggested flow:
-
-1. Open the Marketplace listing.
-2. Invoke AppealOS with a synthetic denial case.
-3. Show the A2A workflow timeline.
-4. Show the Evidence-to-Criteria Matrix.
-5. Show the Appeal Readiness Score.
-6. Show the generated appeal packet.
-7. Show safety and audit notes.
-
----
-
 ## Roadmap
 
 Possible next steps:
