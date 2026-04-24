@@ -189,29 +189,26 @@ All generated materials require review by qualified healthcare professionals bef
 
 ```text
 appealos/
-âââ README.md
-âââ LICENSE
-âââ .gitignore
-âââ marketplace-description.md
-âââ demo-script.md
-âââ agent-configuration/
-â   âââ orchestrator-system-prompt.md
-â   âââ denial-interpreter-agent.md
-â   âââ clinical-evidence-finder-agent.md
-â   âââ policy-match-agent.md
-â   âââ appeal-packet-writer-agent.md
-â   âââ safety-compliance-agent.md
-âââ synthetic-data/
-â   âââ synthetic-patient-001.json
-â   âââ denial-letter-lumbar-mri.txt
-â   âââ payer-policy-lumbar-mri.md
-âââ docs/
-    âââ architecture.md
-    âââ safety-privacy.md
-    âââ limitations.md
-```
-
----
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- marketplace-description.md
+|-- demo-script.md
+|-- agent-configuration/
+|   |-- orchestrator-system-prompt.md
+|   |-- denial-interpreter-agent.md
+|   |-- clinical-evidence-finder-agent.md
+|   |-- policy-match-agent.md
+|   |-- appeal-packet-writer-agent.md
+|   `-- safety-compliance-agent.md
+|-- synthetic-data/
+|   |-- synthetic-patient-001.json
+|   |-- denial-letter-lumbar-mri.txt
+|   `-- payer-policy-lumbar-mri.md
+`-- docs/
+    |-- architecture.md
+    |-- safety-privacy.md
+    `-- limitations.md
 
 ## Prompt Opinion Marketplace
 
