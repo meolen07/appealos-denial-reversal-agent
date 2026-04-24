@@ -209,7 +209,9 @@ appealos/
     |-- architecture.md
     |-- safety-privacy.md
     `-- limitations.md
+```
 
+---
 ## Prompt Opinion Marketplace
 
 Marketplace title:
