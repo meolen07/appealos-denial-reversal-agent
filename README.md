@@ -189,27 +189,29 @@ All generated materials require review by qualified healthcare professionals bef
 
 ```text
 appealos/
-|-- README.md
-|-- LICENSE
-|-- .gitignore
-|-- marketplace-description.md
-|-- demo-script.md
-|-- agent-configuration/
-|   |-- orchestrator-system-prompt.md
-|   |-- denial-interpreter-agent.md
-|   |-- clinical-evidence-finder-agent.md
-|   |-- policy-match-agent.md
-|   |-- appeal-packet-writer-agent.md
-|   `-- safety-compliance-agent.md
-|-- synthetic-data/
-|   |-- synthetic-patient-001.json
-|   |-- denial-letter-lumbar-mri.txt
-|   `-- payer-policy-lumbar-mri.md
-`-- docs/
-    |-- architecture.md
-    |-- safety-privacy.md
-    `-- limitations.md
-```
+├── README.md
+├── LICENSE
+├── .gitignore
+├── marketplace-description.md
+├── demo-script.md
+├── agent-configuration/
+│   ├── orchestrator-system-prompt.md
+│   ├── denial-interpreter-agent.md
+│   ├── clinical-evidence-finder-agent.md
+│   ├── policy-match-agent.md
+│   ├── appeal-packet-writer-agent.md
+│   └── safety-compliance-agent.md
+├── synthetic-data/
+│   ├── synthetic-patient-001.json
+│   ├── denial-letter-lumbar-mri.txt
+│   └── payer-policy-lumbar-mri.md
+├── docs/
+│   ├── architecture.md
+│   ├── safety-privacy.md
+│   └── limitations.md
+└── assets/
+    ├── appealos-logo.png
+    └── appealos-poster.png
 
 ---
 ## Prompt Opinion Marketplace
