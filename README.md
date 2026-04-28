@@ -62,17 +62,18 @@ No custom MCP server is required for the MVP.
 
 ---
 
+
 ## Multi-agent design
 
 AppealOS is organized around one orchestrator and five specialist agents.
 
 ```text
 AppealOS Orchestrator Agent
-- Denial Interpreter Agent
-- Clinical Evidence Finder Agent
-- Policy Match Agent
-- Appeal Packet Writer Agent
-- Safety & Compliance Agent
+├── Denial Interpreter Agent
+├── Clinical Evidence Finder Agent
+├── Policy Match Agent
+├── Appeal Packet Writer Agent
+└── Safety and Compliance Agent
 ```
 
 ### AppealOS Orchestrator Agent
